@@ -57,7 +57,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
     <div className="card">
       {isPerfect && (
         <>
-          <h1>🏆 EROSMUN KÜLTÜR BAKANI! 🏆</h1>
+          <h1>🏆 EROSMUN GIGA NERD'I! 🏆</h1>
           <img 
             src="/sertifika.png" 
             alt="ErosMUN Sertifikası" 
@@ -85,7 +85,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
             Sertifikayı İndir
           </a>
           <h2>Mükemmel Skor: {score} / {totalQuestions}</h2>
-          <p>Tebrikler! İnternet kültürünün zirvesindesin. Git ve fiziki ödülünü (Çikolata/Hediye) talep et!</p>
+          <p>Tebrikler! İnternet kültürünün zirvesindesin. Git ve Qr kodlu eleman sana birseyler versin!!</p>
         </>
       )}
 
@@ -93,7 +93,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
         <>
           <h1>💀 İNANILMAZ BİR BAŞARISIZLIK! 💀</h1>
           <h2>Skor: {score} / {totalQuestions}</h2>
-          <p>Acı sos veya kötü karışım cezası seni bekliyor... Bari 1 tane bilseydin!</p>
+          <p>Acı sos veya kötü karışım cezası seni bekliyor, QR KODLU ELEMANI BUL... Bari 1 tane bilseydin!</p>
         </>
       )}
 
