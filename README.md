@@ -1,73 +1,23 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ErosMUN: Meme Ultimate Nexus 🚀
+ErosMUN konferansının heyecan verici atmosferine renk katan ve delegelerin meme kültürünü test eden eğlenceli bir bilgi yarışması oyunudur.
+**ErosMUN: Meme Ultimate Nexus** ile:
+ * **Meme Kültürünü Test Et:** Popüler meme'lerin fotoğraflarını tanımaya çalış ve meme bilginin ne kadar derin olduğunu kanıtla.
+ * **4 Şık Arasından Seçim Yap:** Her meme için doğru olanı 4 şık arasından seç.
+ * **Zamanla Yarış:** Her soru için 10 saniyen var. Hızlı düşün ve doğru cevabı bul.
+ * **Combo Yap:** Üst üste doğru cevaplar vererek combo yap ve ekrandaki alev animasyonlarını izle.
+ * **Joker Haklarını Kullan:** "Doge'un Yardımı" ve "Reddit Halkı" joker haklarını kullanarak zor soruları kolaylaştır.
+ * **Ödül ve Ceza Sistemi:** 10/10 yaparsan epik bir zafer ekranı ve "GIGACHAD" sertifikası kazan, 0/10 olursan da Rickroll videosu ve "WASTED" ekranı ile utanç verici bir skor kartı al.
+ * **Yöresel ve Universal Memeler:** Hem Türk hem de dünya çapında popüler memeleri bir arada keşfet.
+**Nasıl Oynanır?**
+ 1. Web sitesine git: https://eros-mun-meme-nexus.vercel.app
+ 2. "Oyuna Başla" butonuna tıkla.
+ 3. Her meme için doğru cevabı seç.
+ 4. Skorunu takip et ve zaferini veya yenilgini yaşa!
+**Neden ErosMUN: Meme Ultimate Nexus?**
+ * **Eğlence ve Rekabet:** Meme bilginle arkadaşlarını ve diğer delegeleri geç.
+ * **Zaman Geçirmek:** MUN konferansı sırasında eğlenceli ve interaktif bir deneyim yaşa.
+ * **Yeni Memeler Keşfet:** Hem tanıdık hem de yeni memeleri öğren.
+**İletişim:**
+Oyun hakkında daha fazla bilgi almak veya herhangi bir sorunla karşılaşırsan [github kullanıcı adın] ile iletişime geçebilirsin.
+**Not:** Bu oyun eğlence amaçlıdır ve meme kültürünü kutlamak için tasarlanmıştır. Herhangi bir kişi veya kuruluşu hedef almaz.
+**ErosMUN: Meme Ultimate Nexus** ile MUN konferansını daha da unutulmaz kıl! 🌸🔥🚀
